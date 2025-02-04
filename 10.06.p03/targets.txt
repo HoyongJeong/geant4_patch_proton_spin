@@ -1,0 +1,8 @@
+G4HadFinalState.cc        -> ${G4SOURCE}/source/processes/hadronic/util/src/G4HadFinalState.cc
+G4HadFinalState.hh        -> ${G4SOURCE}/source/source/processes/hadronic/util/include/G4HadFinalState.hh
+G4HadProjectile.cc        -> ${G4SOURCE}/source/source/processes/hadronic/util/src/G4HadProjectile.cc
+G4HadProjectile.hh        -> ${G4SOURCE}/source/source/processes/hadronic/util/include/G4HadProjectile.hh
+G4HadronElastic.cc        -> ${G4SOURCE}/source/source/processes/hadronic/models/coherent_elastic/src/G4HadronElastic.cc
+G4HadronElastic.hh        -> ${G4SOURCE}/source/source/processes/hadronic/models/coherent_elastic/include/G4HadronElastic.hh
+G4HadronElasticProcess.cc -> ${G4SOURCE}/source/source/processes/hadronic/processes/src/G4HadronElasticProcess.cc
+G4HadronElasticProcess.hh -> ${G4SOURCE}/source/source/processes/hadronic/processes/include/G4HadronElasticProcess.hh
