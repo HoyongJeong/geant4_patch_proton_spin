@@ -79,9 +79,9 @@ Lorem ipsum
 
 
 <!-- REFERENCES -->
-## Refernces
+## References
 
-1. Jeong, H., Won, E., Semertzidis, Y.K. et al. An implementation of spin-dependent hadron elastic scattering in GEANT4. J. Korean Phys. Soc. 80, 437–446 (2022). https://doi.org/10.1007/s40042-022-00429-7 
+1. Jeong, H. et al. An implementation of spin-dependent hadron elastic scattering in GEANT4. J. Korean Phys. Soc. 80, 437–446 (2022). https://doi.org/10.1007/s40042-022-00429-7 
 2. Jeong, H. et al. Realization of spin-dependent P-C scattering in GEANT4 and its application to storage ring experiment for pedm. Proceedings of XVII International Workshop on Polarized Sources, Targets & Polarimetry — PoS(PSTP2017). 27 (2018). https://doi.org/10.22323/1.324.0027
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
