@@ -56,7 +56,13 @@ target_link_libraries(tutorial ${Geant4_LIBRARIES})
 set(TUTORIAL_SCRIPTS
 	init_vis.mac
 	vis.mac
-	scripts/*
+	scripts/1_detect.sh
+	scripts/2_hist.sh
+	scripts/ap.C
+	scripts/cal.C
+	scripts/detect.C
+	scripts/drawTest.C
+	scripts/hist.C
 )
 
 foreach(_script ${TUTORIAL_SCRIPTS})
