@@ -56,7 +56,7 @@ target_link_libraries(tutorial ${Geant4_LIBRARIES})
 set(TUTORIAL_SCRIPTS
 	init_vis.mac
 	vis.mac
-	scripts
+	scripts/*
 )
 
 foreach(_script ${TUTORIAL_SCRIPTS})
