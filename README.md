@@ -50,7 +50,7 @@ Lorem ipsum
 <!-- AVAILABLE VERSIONS -->
 ## Available Versions
 
-- 10.06.p03
+- 10.6.3
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -59,7 +59,7 @@ Lorem ipsum
 <!-- HOW TO PATCH -->
 ## How to Patch
 
-1. Choose a version that you like to use in the [list of the available versions](##available-versions).
+1. Choose a version that you like to use in [the list of the available versions](##available-versions).
 2. Download that one.
 3. Copy and paste the patch files to the appropriate path following the instructions in `targets.txt`.
 4. Build and use the GEANT4.
