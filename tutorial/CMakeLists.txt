@@ -44,8 +44,8 @@ file(GLOB headers ${PROJECT_SOURCE_DIR}/include/*.hh)
 #-------------------------------------------------------------------------------
 #   Add the executable, and link it to the Geant4 libraries
 #-------------------------------------------------------------------------------
-add_executable(tutotial main.cc ${sources} ${headers})
-target_link_libraries(tutotial ${Geant4_LIBRARIES})
+add_executable(tutorial main.cc ${sources} ${headers})
+target_link_libraries(tutorial ${Geant4_LIBRARIES})
 
 
 #-------------------------------------------------------------------------------
@@ -56,6 +56,7 @@ target_link_libraries(tutotial ${Geant4_LIBRARIES})
 set(TUTORIAL_SCRIPTS
 	init_vis.mac
 	vis.mac
+	scripts
 )
 
 foreach(_script ${TUTORIAL_SCRIPTS})
@@ -77,4 +78,4 @@ add_custom_target(TUTORIAL DEPENDS tutorial)
 #-------------------------------------------------------------------------------
 #   Install the executable to 'bin' directory under CMAKE_INSTALL_PREFIX
 #-------------------------------------------------------------------------------
-#install(TARGETS tutorial DESTINATION bin)
+install(TARGETS tutorial DESTINATION bin)
